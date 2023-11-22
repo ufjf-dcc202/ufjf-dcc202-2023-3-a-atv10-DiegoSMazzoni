@@ -4,6 +4,8 @@ let maria = 2;
 function setJoao(valor) {
     if(valor >= 0){
         joao = valor;
+    } else {
+        joao = 0;
     }
 }
 
